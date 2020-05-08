@@ -10,15 +10,31 @@ namespace FizzBuzzProj
     {
         static void Main(string[] args)
         {
-            
 
-            for (double count = 0; count < 101; count++) 
+
+            for (double count = 0; count < 101; count++)
             {
+
                 Console.WriteLine(count);
 
+                if (count % 3 == 0) 
+                {
+                    Console.WriteLine("Fizz");
+                }
+
+
             }
+
+
+
+
             Console.ReadLine();
 
+
         }
+
+
     }
+
 }
+    
