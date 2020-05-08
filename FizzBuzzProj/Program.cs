@@ -17,11 +17,16 @@ namespace FizzBuzzProj
 
                 Console.WriteLine(count);
 
-                if (count % 3 == 0) 
+                if (count % 3 == 0)
                 {
                     Console.WriteLine("Fizz");
                 }
 
+                else if (count % 5 == 0) 
+                {
+                    Console.WriteLine("Buzz");
+
+                }
 
             }
 
